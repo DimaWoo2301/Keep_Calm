@@ -5,6 +5,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -310,6 +312,12 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: "Orchidea Pro Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Orchidea Pro Medium"), url("../fonts/orchidea-pro/Mint Type - Orchidea Pro Medium.woff") format("woff");
+}
 * {
   box-sizing: border-box;
 }
